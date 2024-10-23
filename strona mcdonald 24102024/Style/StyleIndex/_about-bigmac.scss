@@ -1,0 +1,36 @@
+.about-bigmac {
+  position: relative;
+  overflow: hidden;
+
+  &__content {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    background-color: white;
+    border-bottom: 0.3em solid $kolorPO;
+    border-top-left-radius: 50px; 
+    border-top-right-radius: 50px;
+
+    &--image {
+      width: 500px;
+      img {
+        width: 100%;
+      }
+    }
+
+    &--text {
+      font-family: Arial, sans-serif;
+      width: 500px;
+      padding: 2em;
+      h1 {
+        margin-bottom: 1em;
+      }
+    }
+  }
+}

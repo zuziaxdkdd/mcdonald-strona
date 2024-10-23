@@ -1,0 +1,36 @@
+.about-jalapeno {
+  position: relative;
+  overflow: hidden;
+  background-color: $kolorPO;
+  border-top: 0.3em solid $kolorPO;
+
+  &__content {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 2em;
+    background-color: white;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+    &--image {
+      width: 500px;
+      img {
+        width: 100%;
+      }
+    }
+
+    &--text {
+      font-family: Arial, sans-serif;
+      width: 500px;
+      padding: 2em;
+      h1 {
+        margin-bottom: 1em;
+      }
+    }
+  }
+}

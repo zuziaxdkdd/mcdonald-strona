@@ -1,0 +1,18 @@
+// https://sass-lang.com/
+// -------------------------------------------
+@import "./StyleGenral/reset";
+@import "./StyleGenral/values";
+@import "./StyleGenral/mixin";
+@import "./StyleGenral/body";
+@import "./StyleGenral/aplay_to_all";
+// -------------------------------------------
+@import "./StyleGenral/heder";
+@import "./StyleGenral/footer";
+// ----------------------------------------------
+@import "./StyleIndex/_about-bigmac";
+@import "./StyleIndex/_about-cheeseburger";
+@import "./StyleIndex/_about-jalapeno";
+@import "./StyleIndex/about-logomcdonald";
+@import "./StyleIndex/about-linkdomc";
+@import"./StyleIndex/about-cola";
+@import"./StyleIndex/about-nugetsy";

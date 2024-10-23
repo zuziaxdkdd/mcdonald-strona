@@ -1,0 +1,36 @@
+.about-cheeseburger {
+  position: relative;
+  overflow: hidden;
+  background-color: $kolorPOc;
+  border-bottom: 0.3em solid $kolorPOc;
+  border-top: 0.3em solid $kolorPOc;
+
+  &__content {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap: 50px;
+    padding: 2em;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
+    &--image {
+      width: 500px;
+      img {
+        width: 100%;
+      }
+    }
+
+    &--text {
+      font-family: Arial, sans-serif;
+      width: 500px;
+      padding: 2em;
+      h1 {
+        margin-bottom: 1em;
+      }
+    }
+  }
+}

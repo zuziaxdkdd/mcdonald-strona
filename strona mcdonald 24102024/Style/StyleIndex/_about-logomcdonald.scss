@@ -1,0 +1,27 @@
+.about-logomcdonald {
+    background-color: $kolorPO;
+    border-bottom: 3em solid $kolorPO;
+    &__content {
+      width: 100vw;
+      height: auto;
+      @include center;
+      display: flex;
+      flex-wrap: wrap;
+      flex: 1;
+      gap: 50px;
+      &--image {
+        width: 500px;
+        img {
+          width: 150px;
+        }
+      }
+      &--text {
+        width: 500px;
+        padding: 2em;
+        h1 {
+          margin-bottom: 1em;
+        }
+      }
+    }
+  }
+  

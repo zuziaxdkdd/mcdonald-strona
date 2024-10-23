@@ -1,0 +1,21 @@
+.about-linkdomc {
+    background-color: $kolorPO;
+    &__content {
+      width: 100vw;
+      height: auto;
+      @include center;
+      display: flex;
+      flex-wrap: wrap;
+      flex: 1;
+      gap: 50px;
+      }
+      &--text {
+        font-family: Arial, sans-serif;
+        width: 500px;
+        padding: 2em;
+        a {
+          margin-bottom: 1em;
+        }
+      }
+    }
+  

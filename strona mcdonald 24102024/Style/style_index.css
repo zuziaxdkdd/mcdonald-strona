@@ -1,0 +1,382 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background-color: rgb(255, 182, 47);
+}
+
+* {
+  text-align: center;
+  color: black;
+}
+
+h1, h2, h3, h4, h5 {
+  text-align: center;
+  font-size: 3em;
+}
+
+footer {
+  width: 100vw;
+  height: 15vh;
+  background-color: rgb(255, 182, 47);
+}
+
+header {
+  width: 100vw;
+  height: 15vh;
+  background-color: rgb(255, 182, 47);
+}
+
+.about-bigmac {
+  position: relative;
+  overflow: hidden;
+}
+.about-bigmac__content {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+  background-color: white;
+  border-bottom: 0.3em solid rgb(255, 182, 47);
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+.about-bigmac__content--image {
+  width: 500px;
+}
+.about-bigmac__content--image img {
+  width: 100%;
+}
+.about-bigmac__content--text {
+  font-family: Arial, sans-serif;
+  width: 500px;
+  padding: 2em;
+}
+.about-bigmac__content--text h1 {
+  margin-bottom: 1em;
+}
+
+.about-cheeseburger {
+  position: relative;
+  overflow: hidden;
+  background-color: rgb(255, 166, 0);
+  border-bottom: 0.3em solid rgb(255, 166, 0);
+  border-top: 0.3em solid rgb(255, 166, 0);
+}
+.about-cheeseburger__content {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  gap: 50px;
+  padding: 2em;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.about-cheeseburger__content--image {
+  width: 500px;
+}
+.about-cheeseburger__content--image img {
+  width: 100%;
+}
+.about-cheeseburger__content--text {
+  font-family: Arial, sans-serif;
+  width: 500px;
+  padding: 2em;
+}
+.about-cheeseburger__content--text h1 {
+  margin-bottom: 1em;
+}
+
+.about-jalapeno {
+  position: relative;
+  overflow: hidden;
+  background-color: rgb(255, 182, 47);
+  border-top: 0.3em solid rgb(255, 182, 47);
+}
+.about-jalapeno__content {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 2em;
+  background-color: white;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.about-jalapeno__content--image {
+  width: 500px;
+}
+.about-jalapeno__content--image img {
+  width: 100%;
+}
+.about-jalapeno__content--text {
+  font-family: Arial, sans-serif;
+  width: 500px;
+  padding: 2em;
+}
+.about-jalapeno__content--text h1 {
+  margin-bottom: 1em;
+}
+
+.about-logomcdonald {
+  background-color: rgb(255, 182, 47);
+  border-bottom: 3em solid rgb(255, 182, 47);
+}
+.about-logomcdonald__content {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  gap: 50px;
+}
+.about-logomcdonald__content--image {
+  width: 500px;
+}
+.about-logomcdonald__content--image img {
+  width: 150px;
+}
+.about-logomcdonald__content--text {
+  width: 500px;
+  padding: 2em;
+}
+.about-logomcdonald__content--text h1 {
+  margin-bottom: 1em;
+}
+
+.about-linkdomc {
+  background-color: rgb(255, 182, 47);
+}
+.about-linkdomc__content {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  gap: 50px;
+}
+.about-linkdomc--text {
+  font-family: Arial, sans-serif;
+  width: 500px;
+  padding: 2em;
+}
+.about-linkdomc--text a {
+  margin-bottom: 1em;
+}
+
+.about-cola {
+  position: relative;
+  overflow: hidden;
+  background-color: rgb(255, 182, 47);
+  border-bottom: 0.3em solid rgb(255, 182, 47);
+  border-top: 0.3em solid rgb(255, 182, 47);
+}
+.about-cola__content {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 2em;
+  align-items: center;
+  background-color: white;
+}
+.about-cola__content--image {
+  width: 500px;
+}
+.about-cola__content--image img {
+  width: 100%;
+}
+.about-cola__content--text {
+  font-family: Arial, sans-serif;
+  width: 500px;
+  padding: 2em;
+}
+.about-cola__content--text h1 {
+  margin-bottom: 1em;
+}
+
+.about-nugetsy {
+  position: relative;
+  overflow: hidden;
+  background-color: rgb(255, 166, 0);
+  border-bottom: 0.3em solid rgb(255, 166, 0);
+  border-top: 0.3em solid rgb(255, 166, 0);
+}
+.about-nugetsy__content {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  gap: 50px;
+  padding: 2em;
+  align-items: center;
+  background-color: white;
+}
+.about-nugetsy__content--image {
+  width: 500px;
+}
+.about-nugetsy__content--image img {
+  width: 100%;
+}
+.about-nugetsy__content--text {
+  font-family: Arial, sans-serif;
+  width: 500px;
+  padding: 2em;
+}
+.about-nugetsy__content--text h1 {
+  margin-bottom: 1em;
+}/*# sourceMappingURL=style_index.css.map */
